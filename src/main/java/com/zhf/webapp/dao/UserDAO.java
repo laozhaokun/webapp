@@ -14,4 +14,5 @@ public interface UserDAO {
     public User getUserById(int id);
     public void update(User user);
     public int count();
+    public User getUserByNamePass(String username,String password);
 }

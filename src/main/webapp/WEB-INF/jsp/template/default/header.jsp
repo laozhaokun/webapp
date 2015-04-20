@@ -14,10 +14,6 @@
 
 <header class="container">
     <div class="row">
-        <div class="logo col-md-7 col-sm-6">
-            <a href="<%=basePath%>" style="cursor: pointer"><img src="/img/logo.png" class="img-responsive" width="564"
-                                                                 height="55" alt=""/></a>
-        </div>
         <div class="toprightbox col-md-5 col-sm-6 pull-right hidden-xs">
             <p class="text-right">
                 <a class="btn btn-info" href="<%=basePath%>user/login" target="_blank">登录</a></p>
@@ -36,7 +32,7 @@
                 <li><a href="<%=basePath%>">首页</a></li>
                 <li><a href="<%=basePath%>user/users">用户管理</a></li>
                 <li><a href="<%=basePath%>host/hosts">域名管理</a></li>
-                <li><a href="<%=basePath%>site/search">网站搜索</a></li>
+                <li><a href="<%=basePath%>index">指数</a></li>
             </ul>
         </div>
     </div>

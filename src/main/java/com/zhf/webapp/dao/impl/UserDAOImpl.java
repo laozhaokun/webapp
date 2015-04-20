@@ -16,9 +16,7 @@ import java.util.List;
  */
 @Repository
 public class UserDAOImpl implements UserDAO{
-
-    private static final Logger logger = LoggerFactory.getLogger(UserDAOImpl.class);
-
+      private static final Logger logger = LoggerFactory.getLogger(UserDAOImpl.class);
     @Autowired
     private SessionFactory sessionFactory;
     private Session getCurrentSession(){
@@ -61,5 +59,13 @@ public class UserDAOImpl implements UserDAO{
     public int count(){
         logger.info("count user successfully");
         return getCurrentSession().createQuery("from User").list().size();
+    }
+
+    public User getUserByNamePass(String username, String password) {
+        List<User> userList = getCurrentSession().createQuery("from User u where u.username = '" + username +"' and u.password = '" + password + "'").list();
+        logger.info("get user successfully,user details:" + username);
+        if (userList.size() > 0)
+             return userList.get(0);
+        return null;
     }
 }

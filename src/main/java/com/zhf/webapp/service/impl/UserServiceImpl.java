@@ -45,4 +45,8 @@ public class UserServiceImpl implements UserService {
     public int count() {
         return this.userDAO.count();
     }
+
+    public User getUserByNamePass(String username, String password) {
+        return this.userDAO.getUserByNamePass(username,password);
+    }
 }
