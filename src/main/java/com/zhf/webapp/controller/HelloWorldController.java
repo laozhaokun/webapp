@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 
 @Controller
-//@RequestMapping("/hellomvc")
 public class HelloWorldController {
     @RequestMapping({"/hello","/"})
     public String hello(@RequestParam("name") String name, Model model) {
