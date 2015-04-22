@@ -13,7 +13,7 @@
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
         <div class="container">
-            <a class="btn btn-info" href="<c:url value='host/add'/>">添加域名</a>
+            <a class="btn btn-info" href="<c:url value='add'/>">添加域名</a>
 
             <div class="well">
                 <strong>域名列表</strong>

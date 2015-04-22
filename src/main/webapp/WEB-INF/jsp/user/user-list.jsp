@@ -11,7 +11,7 @@
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
         <div class="container">
-            <a class="btn btn-info" href="<c:url value='user/add'/>">添加用户</a>
+            <a class="btn btn-info" href="<c:url value='add'/>">添加用户</a>
             <div class="well">
                 <strong>用户列表</strong>
             </div>

@@ -14,7 +14,7 @@
 <%--</form>--%>
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
-        <div class="container-fluid">
+        <div class="container-fluid" style="width:800px; margin:0 auto;">
             <div class="row-fluid">
                 <div class="span12">
                     <fieldset>

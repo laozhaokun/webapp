@@ -18,7 +18,7 @@
                     <p class="text-info">网站流量来源、去向搜索(不包括直接访问)，日期暂为20150417，默认最多取15个关联网址。</p>
                     <center>
                             <%--<input type="text" placeholder="日期格式:YYYYMMDD" style="width: 100px;height:30px;"/>--%>
-                        <input type="text" id="url_value" placeholder="请输入域名或IP" class="input-xlarge"/>
+                        <input type="text" id="url_value" placeholder="请输入域名或IP" style="width: 250px;height: 35px;"/>
                         <input type="button" class="btn btn-success" id="search" value="Search">
                     </center>
                 </form>
@@ -68,7 +68,6 @@
                                         return d.count;
                                     })])
                                     .range([0, w]);
-
                             d3.select("#search-bar-chart-from").select("svg").remove()
                             //Create SVG element
                             var svg = d3.select("#search-bar-chart-from")
@@ -138,7 +137,7 @@
                                     .data(dataset)
                                     .enter()
                                     .append("rect")
-                                    .attr("x", 25)
+                                    .attr("x", 10)
                                     .attr("y", function (d, i) {
                                         return i * 30;
                                     })

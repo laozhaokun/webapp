@@ -39,6 +39,6 @@ public class UrlRefCountController {
 
     @RequestMapping(value = "index",method = RequestMethod.GET)
     public String search(){
-        return "/host/search";
+        return "/chart/search";
     }
 }

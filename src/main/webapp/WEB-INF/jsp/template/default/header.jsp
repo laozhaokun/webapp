@@ -32,7 +32,8 @@
                 <li><a href="<%=basePath%>">首页</a></li>
                 <li><a href="<%=basePath%>user/users">用户管理</a></li>
                 <li><a href="<%=basePath%>host/hosts">域名管理</a></li>
-                <li><a href="<%=basePath%>index">指数</a></li>
+                <li><a href="<%=basePath%>index">网站流量</a></li>
+                <li><a href="<%=basePath%>phone">手机品牌</a></li>
             </ul>
         </div>
     </div>

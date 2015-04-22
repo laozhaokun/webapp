@@ -4,12 +4,8 @@
 
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
-
-
-        <h1>Home page !</h1>
-
-        <h1>Hello World !</h1>
-
-
+        <div class="container">
+        <h1 style="text-align: center">Hello World !</h1>
+        </div>
     </tiles:putAttribute>
 </tiles:insertDefinition>
