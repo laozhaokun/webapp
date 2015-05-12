@@ -3,7 +3,7 @@
 * 这里爬的信息包括：标题和描述。
 * 爬到的结果用于加入solr索引，以便执行搜索。
 ***
-##打包:
+## 打包:
 mvn package
-##Usage:
+## Usage:
 java -jar xx.jar file_input_path url_column_index size_of_threads
